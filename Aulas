@@ -1,0 +1,49 @@
+BRUTE-FORCE
+
+O Que É Um Brute-Force?
+Em criptografia, um ataque de força bruta, ou busca exaustiva de chave, é um ataque criptoanalítico que pode, em teoria, ser usado contra quaisquer dados criptografados.
+
+
+
+Agora Que Sabemos O Que É Brute-Force, Vamos Então Ver Como Forçar A Descoberta De Uma Palavra Passe De Uma Conta De Qualquer Rede Social
+
+
+Passo 1
+Digite:
+$ pkg update && pkg upgrade -y
+
+
+
+Passo 2
+Digite:
+$ pkg install git
+
+
+
+Passo 3
+Em seguida, vamos baixar o Script em nosso terminal com:
+$ git clone https://github.com/samsesh/SocialBox-Termux.git
+
+
+
+Passo 4
+Acesse o diretório baixado com:
+$ cd SocialBox-Termux
+
+
+
+Passo 5
+Vamos dar permissão para o Script de instalação e ferramenta ser executado com:
+$ chmod +x *
+
+
+
+Passo 6
+Enfim, executamos o Script de instalação com:
+$ ./install-sb.sh
+
+
+
+Passo 7
+Voilà! Após a instalação, basta iniciar a ferramenta com:
+$ ./SocialBox.sh
