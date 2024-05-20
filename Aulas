@@ -47,3 +47,95 @@ $ ./install-sb.sh
 Passo 7
 Voilà! Após a instalação, basta iniciar a ferramenta com:
 $ ./SocialBox.sh
+
+
+
+
+LS= abrir todas suas ferramentas no termux.
+--------------------------------------------------------------------
+CD = usado para abrir alguma ferramenta.
+​Exemplo: cd sqlmap.
+--------------------------------------------------------------------
+CD .. = usado para voltar o último comando ou uma casa.
+--------------------------------------------------------------------
+CLEAR = usado para limpar a janela que você está usando.
+--------------------------------------------------------------------
+$HOME = usado para voltar para a tela inicial do termux.
+--------------------------------------------------------------------
+CD /SDCARD = usado para entrar na memória interna do seu celular.
+--------------------------------------------------------------------
+MV -V = para mover algo.
+--------------------------------------------------------------------
+​RM = para remover algo.
+--------------------------------------------------------------------
+​RM -VF= para remover algo forçadamente.
+--------------------------------------------------------------------
+Y para sim, E N para não.
+--------------------------------------------------------------------
+VOLUME + & W= para colar o ultimo comando que você usou.
+--------------------------------------------------------------------
+VOLUME - & C= para cancelar o ataque ou etc.
+--------------------------------------------------------------------
+VOLUME + & Q= para acessar controles extras do teclado.
+--------------------------------------------------------------------
+HELP= para acessar o painel de ajuda do termux.
+​--------------------------------------------------------------------
+--------Esses são comandos básicos para termux---------
+PHISHING
+
+
+O Quê É Phishing?
+
+
+Phishing é uma técnica de engenharia social usada para enganar usuários de internet usando fraude eletrônica para obter informações confidenciais, como nome de usuário, senha e detalhes do cartão de crédito.
+
+
+
+Agora Que Sabemos O Que É Phishing Vamos Lá Aprender Criar Um Phishing Poderoso Para Hackear Contas De Redes Sociais
+
+
+NEXPHISHER
+
+
+Basicamente, O "NEXTPHISHER" É Uma Ferramenta Automática De Phishing Para Linux E Termux. Com Essa Ferramenta Podemos Clonar Uma Página De Inicio De Sessao De Qualquer Rede Social, Enviamos Um Link À Vitima E Quando Ela Entra No Link E Inicia Sessão Será Hackeada Imediatamente.
+
+
+
+INSTALAÇÃO
+
+
+Passo 1
+No Termux Digite:
+$ apt update && apt upgrade -y
+
+
+
+Passo 2
+Agora Digite:
+$ pkg install git -y
+
+
+
+Passo 3
+Em Seguida Precisamos Clonar O "NEXPHISHER", Então Digite Isso:
+$ git clone https://github.com/htr-tech/nexphisher
+
+
+
+Passo 4
+Agora Digite:
+$ cd nexphisher
+
+
+
+Passo 5
+Digite:
+$ bash setup
+
+
+
+Passo 6
+Muito Bem. A Ferramenta Foi Instalada Com Sucesso, Agora Vamos Entrar Digitando O Seguinte:
+$ bash nexphisher
+
+
